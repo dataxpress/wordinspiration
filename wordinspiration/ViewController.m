@@ -53,6 +53,7 @@
         partOfSpeech = @"Other";
     }
     cell.textLabel.text = partOfSpeech;
+    cell.detailTextLabel.text = [@([self.dictionary[self.partsOfSpeech[indexPath.row]] count]).stringValue stringByAppendingString:@" entries"];
     return cell;
     
 }
