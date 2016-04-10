@@ -23,7 +23,12 @@
     
     self.dictionary = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"dictionary" ofType:@"json"]] options:0 error:nil];
     
-    self.partsOfSpeech = self.dictionary.allKeys;
+    self.partsOfSpeech = [self.dictionary.allKeys sortedArrayUsingComparator:^NSComparisonResult(NSString *key1, NSString *key2) {
+        NSInteger key1count = [self.dictionary[key1] count];
+        NSInteger key2count = [self.dictionary[key2] count];
+        
+        return [@(key2count) compare:@(key1count)];
+    }];
     
 }
 
