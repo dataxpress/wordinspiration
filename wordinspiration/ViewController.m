@@ -48,8 +48,11 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"CELL"];
     }
     
-    cell.textLabel.text = self.partsOfSpeech[indexPath.row];
-    
+    NSString *partOfSpeech = self.partsOfSpeech[indexPath.row];
+    if(partOfSpeech.length == 0){
+        partOfSpeech = @"Other";
+    }
+    cell.textLabel.text = partOfSpeech;
     return cell;
     
 }
