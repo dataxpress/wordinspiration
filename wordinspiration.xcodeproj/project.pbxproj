@@ -13,6 +13,8 @@
 		4C1B24F61CBADAEB0072995C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B24F41CBADAEB0072995C /* Main.storyboard */; };
 		4C1B24F81CBADAEB0072995C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B24F71CBADAEB0072995C /* Assets.xcassets */; };
 		4C1B24FB1CBADAEB0072995C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B24F91CBADAEB0072995C /* LaunchScreen.storyboard */; };
+		4C1B25031CBADBE10072995C /* dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B25021CBADBE10072995C /* dictionary.json */; };
+		4C1B25061CBADD830072995C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B25051CBADD830072995C /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		4C1B24F71CBADAEB0072995C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1B24FA1CBADAEB0072995C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C1B24FC1CBADAEB0072995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1B25021CBADBE10072995C /* dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dictionary.json; sourceTree = "<group>"; };
+		4C1B25041CBADD830072995C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4C1B25051CBADD830072995C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +71,10 @@
 				4C1B24F71CBADAEB0072995C /* Assets.xcassets */,
 				4C1B24F91CBADAEB0072995C /* LaunchScreen.storyboard */,
 				4C1B24FC1CBADAEB0072995C /* Info.plist */,
+				4C1B25021CBADBE10072995C /* dictionary.json */,
 				4C1B24EB1CBADAEB0072995C /* Supporting Files */,
+				4C1B25041CBADD830072995C /* TableViewController.h */,
+				4C1B25051CBADD830072995C /* TableViewController.m */,
 			);
 			path = wordinspiration;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			files = (
 				4C1B24FB1CBADAEB0072995C /* LaunchScreen.storyboard in Resources */,
 				4C1B24F81CBADAEB0072995C /* Assets.xcassets in Resources */,
+				4C1B25031CBADBE10072995C /* dictionary.json in Resources */,
 				4C1B24F61CBADAEB0072995C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +161,7 @@
 				4C1B24F31CBADAEB0072995C /* ViewController.m in Sources */,
 				4C1B24F01CBADAEB0072995C /* AppDelegate.m in Sources */,
 				4C1B24ED1CBADAEB0072995C /* main.m in Sources */,
+				4C1B25061CBADD830072995C /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
