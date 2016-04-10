@@ -16,15 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneTapped:)];
-    
 }
-
--(void)doneTapped:(id)sender{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
 
 #pragma mark - Table view data source
 

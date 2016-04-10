@@ -69,9 +69,8 @@
     }
     
     tvc.words = words;
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:tvc];
     tvc.navigationItem.title = self.partsOfSpeech[indexPath.row];
-    [self presentViewController:navi animated:YES completion:nil];
+    [self.navigationController pushViewController:tvc animated:YES];
     
     
     
